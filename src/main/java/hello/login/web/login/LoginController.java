@@ -126,7 +126,6 @@ public class LoginController {
         }
         return "redirect:/";
     }
-}
 
 
     private void expireCookie(HttpServletResponse response, String cookieName) {
